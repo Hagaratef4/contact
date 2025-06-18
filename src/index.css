@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* ? navbar */
+.navbar-collapse{
+  flex-grow: 0 !important;
+  color: white !important;
+}
+
+.navbar{
+  color: white !important;
+  background-color: #2C3E50;
+}
+.navbar-brand{
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.active{
+  background-color: #1ABC9C !important;
+  color: #fff !important;
+  border: 4px solid transparent !important;
+  border-radius: .3125rem !important;
+  padding: .125rem !important;
+  text-decoration: none;
+}
+.custom-nav{
+  background-color: #1ABC9C !important;
+  color: #fff !important;
+  border: 4px solid transparent !important;
+  border-radius: .3125rem !important;
+  padding: .125rem !important;
+  text-decoration: none;
+}
+
+
+/* ? footer */
+.fter {
+  background-color: #2C3E50;
+}
+
+.card {
+  background-color: #2C3E50 !important;
+  color: white !important;
+}
+
+.icon{
+  width: 2.2rem;
+  height: 2.2rem;
+  border: .125rem solid white;
+}
+
+/* ? home */
+.home{
+  background-color: #1ABC9C;
+  color: white;
+}
+
+.star::before{
+  content: '';
+  width: 90px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+.star::after{
+  content: '';
+  width: 90px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  right: 40%;
+  top: 50%;
+}
+
+img {
+  width: 14.375rem;
+}
+
+/* ? portfolio */
+.port{
+  background-color: white;
+  color: #2C3E50 !important;
+}
+
+.mem::before{
+  content: '';
+  width: 90px;
+  height: 5px;
+  background-color:#2C3E50;
+  position: absolute;
+  left: 41%;
+  top: 50%;
+}
+.mem::after{
+  content: '';
+  width: 90px;
+  height: 5px;
+  background-color:#2C3E50;
+  position: absolute;
+  right: 41%;
+  top: 50%;
+}
+.layout {
+  background-color: rgba(26, 188, 156,0.9);
+  position: absolute;
+  top: 0;
+  width: 95%;
+  opacity: 0;
+  transition: all 0.6s ease;
+  cursor: pointer;
+}
+.layout i {
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.layout:hover {
+  opacity: 1;
+}
+
+
+/* ? contact */
+
+.form-control:focus{
+  box-shadow: 0 0 0 transparent !important;
+}
+label{
+  color: #1ABC9C;
+}
+
+/* .hide {
+  position: relative;
+  top: 2.5rem !important;
+  opacity: 0;
+  transition: all 0.6s top;
+}
+
+.hide:active{
+  top: 0;
+  opacity: 1;
+} */
+.cont::before{
+  content: '';
+  width: 90px;
+  height: 5px;
+  background-color:#2C3E50;
+  position: absolute;
+  left: 200%;
+  top: 50%;
+}
+.cont::after{
+  content: '';
+  width: 90px;
+  height: 5px;
+  background-color:#2C3E50;
+  position: absolute;
+  right: 200%;
+  top: 50%;
+}
+
+.btn {
+  background-color: #1ABC9C !important;
+  
+}
