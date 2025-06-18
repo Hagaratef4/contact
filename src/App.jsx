@@ -9,7 +9,7 @@ import './App.css'
 import Home from './Components/Home';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
-import Contact from './Components/Contact.JSX';
+import Contact from './Components/Contact.jsx';
 import Layout from './Components/Layout';
 
 
